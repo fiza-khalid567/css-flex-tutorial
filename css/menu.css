@@ -1,0 +1,50 @@
+nav{
+    background: #333;
+
+}
+nav ul{
+    list-style-type: none;
+}
+nav a{
+    color: white;
+    display: block;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: gray;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    flex: 1;
+}
+a.fb{
+    background: url(../image/pink.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    
+}
+#blocks{
+    margin: 5%;
+}
+article{
+    background: pink;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+article h2{
+    text-align: center;
+}
+#blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    flex: 0 1 32%;
+}
+
+
+

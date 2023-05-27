@@ -1,0 +1,20 @@
+.wrapper{
+    width: 100%;
+    min-width: 960px ;
+}
+#blocks{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: yellow;
+}
+#blocks div{
+    flex: 0 0 100px;
+    padding: 40px;
+    text-align: center;
+    background: pink;
+}
+.one{order: 4;}
+.two{order: 3;}
+.three{order: 2;}
+.four{order: 1;}

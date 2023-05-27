@@ -1,0 +1,34 @@
+.flex-container{
+    display: flex;
+    background: white;
+    flex-wrap: wrap;
+    flex-flow: column;
+    height: 200px;
+    align-items: center;
+    
+    
+}
+
+.box{
+    height: 100px;
+    min-width: 100px;
+    
+}
+
+.one{
+    background: red;
+    flex-grow: 1;
+}
+
+.two{
+    background: greenyellow;
+    flex-grow: 2;
+}
+
+.three{
+    background: yellow;
+}
+
+.four{
+    background: gray;
+}
